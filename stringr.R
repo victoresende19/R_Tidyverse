@@ -24,12 +24,12 @@ classical$catalog_name <- as.factor(classical$catalog_name)
 #Criando novas features
 classical$minutes <- round(classical$seconds/60, 2)
 
-#Purr para extração e criação de novas features
+#Purr para extraÃ§Ã£o e criaÃ§Ã£o de novas features
 classical$instrument <- str_extract(classical$ensemble, 
                                     "Piano|String|Wind|Clarinet|Cello|Violin|Viola|Flute")
 
-#classical$composition_type <- str_extract(classical$composition, 
-#                                         "Sonata|Suite|Impromptus|Serenade")
+classical$composition_type <- str_extract(classical$composition, 
+                                         "Sonata|Suite|Impromptus|Serenade")
 
 
 
