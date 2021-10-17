@@ -1,9 +1,5 @@
 # Tidyverse
 
-<p align="center">
-  <img src=https://www.tidyverse.org/images/tidyverse-default.png />
-</p>
-
 The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
 * Ggplot2: Ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
